@@ -129,7 +129,7 @@ Run in-browser: **cpulator – DE1-SoC NiosV**
 
 **Steps**
 1) Set language to **C**  
-2) Upload `REAL_FINAL_CODE.c`  
+2) Upload `finalized_code.c`  
 3) Open **PS/2 Keyboard 1**  
 4) Use the controls above
 
