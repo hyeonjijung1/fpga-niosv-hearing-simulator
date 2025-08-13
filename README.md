@@ -3,7 +3,7 @@
 # FPGA-NiosV Hearing Loss & Aid Simulator
 _Real-time DSP in **Embedded C** on a **Nios® V** soft processor inside the **DE1-SoC** FPGA.
 
-![UI Background](images/UI-background.png)
+![UI Background](images/UI-background.jpg)
 
 ---
 ## 📑 Table of Contents
@@ -66,7 +66,7 @@ _Real-time DSP in **Embedded C** on a **Nios® V** soft processor inside the **D
 
 | Start Screen | Sound Mode Selection | Aid Simulator |
 |---|---|---|
-| ![Start Screen](images/UI-background.png) <br> **Main menu** with navigation hints. | ![Sound Mode Selection](images/sound-mode.png) <br> **Choose** Loss / Aid or mic/sample source. | ![Aid Simulator](images/aid-screen.png) <br> **Aid mode** with gain, noise control, and echo. |
+| ![Start Screen](images/UI-background.jpg) <br> **Main menu** with navigation hints. | ![Sound Mode Selection](images/sound-mode.png) <br> **Choose** Loss / Aid or mic/sample source. | ![Aid Simulator](images/aid-screen.png) <br> **Aid mode** with gain, noise control, and echo. |
 
 | Loss Simulator | Microphone Selected |
 |---|---|
