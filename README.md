@@ -1,12 +1,18 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 
 # FPGA-NiosV Hearing Loss & Aid Simulator
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Language: Embedded C](https://img.shields.io/badge/Language-Embedded%20C-brightgreen)
+![Processor: Nios V](https://img.shields.io/badge/Processor-Nios%20V-lightgrey)
+![Platform: DE1--SoC FPGA](https://img.shields.io/badge/Platform-DE1--SoC%20FPGA-blue)
+
 _Real-time DSP in **Embedded C** on a **Nios® V** soft processor inside the **DE1-SoC** FPGA.
 
 ![UI Background](images/UI-background.jpg)
 
 ---
-## 📑 Table of Contents
+## Table of Contents
 1. [Tech Stack](#-tech-stack)
 2. [System Architecture](#system-architecture)
 3. [DSP Technical Implementation](#dsp-technical-implementation-embedded-c-on-nios-v)
@@ -139,11 +145,17 @@ Run in-browser: **cpulator – DE1-SoC NiosV**
 ```
 images/ # Diagrams, UI screenshots, waveform visuals
 src/ # Embedded C source for Nios V (DSP + UI)
-docs/ # Notes / design artifacts
+docs/ # Project Report, Block diagram description
 README.md
 LICENSE
 ```
 ---
 
-## About the Author
-- **[Hyeonji Jung](https://www.linkedin.com/in/hyeonjijung/)** — Designed DSP audio processing logic, created UI screens, and implemented LED toggle control logic  
+## About the Author  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hyeonji%20Jung-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyeonjijung/)  
+
+- Hardware & Embedded Systems Designer  
+  - Architected and implemented **real-time DSP audio pipeline** on FPGA (gain, noise suppression, echo, filtering)  
+  - Designed and integrated **VGA UI screens** with responsive PS/2 controls  
+  - Developed **LED control logic** synchronized with audio modes for visual feedback  
+  - Passionate about **bridging hardware, DSP, and human-centered UI** into seamless embedded experiences  
