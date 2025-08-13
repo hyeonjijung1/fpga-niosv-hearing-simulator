@@ -7,7 +7,7 @@
 ![Processor: Nios V](https://img.shields.io/badge/Processor-Nios%20V-lightgrey)
 ![Platform: DE1--SoC FPGA](https://img.shields.io/badge/Platform-DE1--SoC%20FPGA-blue)
 
-_Real-time DSP in **Embedded C** on a **Nios® V** soft processor inside the **DE1-SoC** FPGA.
+>Real-time DSP in **Embedded C** on a **Nios® V** soft processor inside the **DE1-SoC** FPGA.
 
 ![UI Background](images/UI-background.jpg)
 
@@ -122,10 +122,12 @@ Validation was performed using a DE1-SoC development board with oscilloscope sig
 
 ## Performance Metrics
 
-- **8 ms latency** — Mic-in to processed stereo-out  
-- **100 MHz clock** — < 1 ns post-fit slack  
-- **12% LUT / 5% BRAM** — Nios V + DSP core  
-- **Instant mode switching** — No audio dropouts  
+| Metric | Measurement Method |
+|---|---|
+| **8 ms latency** | On-board timer from mic-in to processed stereo-out |
+| **100 MHz clock** | Quartus Timing Analyzer — < 1 ns post-fit slack |
+| **12% LUT / 5% BRAM** | Quartus Fitter report (Nios V + DSP core) |
+| **Instant mode switching** | Hardware test — no audio dropouts when toggling effects |
 
 ---
 
