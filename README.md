@@ -84,7 +84,7 @@
 
 Below is a mock oscilloscope capture generated using `matplotlib`, based on observations during hardware testing.
 
-![Latency Demo](oscilloscope_latency_demo.png)
+![Latency Demo](images/oscilloscope_latency_demo.png)
 *CH1: Original signal (green) | CH2: Processed signal simulating hearing loss (yellow). Latency measured at ~8 ms.*
 
 ---
