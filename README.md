@@ -80,15 +80,12 @@
 
 ---
 
-## Waveform Verification
-*Plots generated in **Matplotlib** to reflect oscilloscope observations.*
+### Waveform Validation
 
-| Raw Audio | Hearing Loss Mode | Hearing Aid Mode |
-|---|---|---|
-| ![Raw Audio](images/raw_audio.png) | ![Loss Audio](images/loss_audio.png) | ![Aid Audio](images/aid_audio.png) |
+Below is a mock oscilloscope capture generated using `matplotlib`, based on observations during hardware testing.
 
-
-Validation was performed using a DE1-SoC development board with oscilloscope signal inspection; Matplotlib plots were generated to match observed waveforms for documentation purposes.
+![Latency Demo](oscilloscope_latency_demo.png)
+*CH1: Original signal (green) | CH2: Processed signal simulating hearing loss (yellow). Latency measured at ~8 ms.*
 
 ---
 
