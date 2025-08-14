@@ -151,7 +151,7 @@ LICENSE
 ---
 
 ## About the Author  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hyeonji%20Jung-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyeonjijung/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diana%20Jung-blue?logo=linkedin)](https://www.linkedin.com/in/dianajung-uoft/) 
 
 - Hardware & Embedded Systems Designer  
   - Architected and implemented **real-time DSP audio pipeline** on FPGA (gain, noise suppression, echo, filtering)  
